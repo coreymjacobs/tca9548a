@@ -1,0 +1,33 @@
+{
+  "name": "tca9548a",
+  "version": "1.0.1",
+  "description": "A Node.js module for the TCA9548A I2C 8-channel Multiplexer",
+  "main": "tca9548a.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coreymjacobs/tca9548a"
+  },
+  "keywords": [
+    "TCA9548A",
+    "TCA9548",
+    "MUX",
+    "MULTIPLEXER",
+    "Adafruit",
+    "Raspberry",
+    "Pi",
+    "Beaglebone"
+  ],
+  "author": "Corey J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreymjacobs/tca9548a/issues"
+  },
+  "homepage": "https://github.com/coreymjacobs/tca9548a",
+  "dependencies": {
+    "i2c-bus": "^4.0.7"
+  },
+  "devDependencies": {
+  }
+}
