@@ -1,7 +1,7 @@
 # tca9548a
 A Node.js module for the TCA9548A I2C 8-channel Multiplexer.
 
-Bilt using node v11.9.0
+Built using node v11.9.0
 
 This is Node.js I2C module for the TCA9548A Low-Voltage 8-Channel I2C Switch/Multiplexer. 
 
@@ -17,7 +17,7 @@ Since TCA9548A needs to talk directly to the I2C bus and requires access to /dev
 <b>const TCA9548A = require('./tca9548a');</b>
 
 //module is constructed via Class so first call a new instance
-//device is automatically intialized and ready to use
+//device is automatically initialized and ready to use
 //addr defaults to 0x70 and bus defaults to 1
 //
 <b>const tca9548a_1 = new TCA9548A({addr: 0x70, bus: 1});</b>
@@ -35,7 +35,7 @@ Since TCA9548A needs to talk directly to the I2C bus and requires access to /dev
 //
 //use a callback to ensure that the port is enabled before proceeding with other processing
 //
-//for example, sensor1 is atached to port 2 on the multiplexer
+//for example, sensor1 is attached to port 2 on the multiplexer
 //
 <b>tca9548a_1.singlePortOn(2, doSomethingWithSensor());</b>
 
