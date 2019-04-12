@@ -1,5 +1,7 @@
 # tca9548a
-A Node.js module for the TCA9548A I2C 8-channel Multiplexer
+A Node.js module for the TCA9548A I2C 8-channel Multiplexer.
+
+Bilt using node v11.9.0
 
 This is Node.js I2C module for the TCA9548A Low-Voltage 8-Channel I2C Switch/Multiplexer. 
 
