@@ -17,7 +17,7 @@ Since TCA9548A needs to talk directly to the I2C bus and requires access to /dev
 ```javascript
 //require module
 //
-const TCA9548A = require('tca9548a');
+const TCA9548A = require('./tca9548a');
 
 //module is constructed via Class so first call a new instance
 //device is automatically initialized and ready to use
