@@ -1,13 +1,14 @@
 {
   "name": "tca9548a",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A Node.js module for the TCA9548A I2C 8-channel Multiplexer",
   "main": "tca9548a.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coreymjacobs/tca9548a"
+    "url": "git+https://github.com/coreymjacobs/tca9548a.git"
   },
   "engines": {
     "node": ">=7.8.0"
@@ -27,10 +28,8 @@
   "bugs": {
     "url": "https://github.com/coreymjacobs/tca9548a/issues"
   },
-  "homepage": "https://github.com/coreymjacobs/tca9548a",
+  "homepage": "https://github.com/coreymjacobs/tca9548a#readme",
   "dependencies": {
-    "i2c-bus": "^4.0.7"
-  },
-  "devDependencies": {
+    "i2c-bus": "^4.0.9"
   }
 }
